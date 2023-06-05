@@ -13,8 +13,8 @@ packages = [{include = "src/tornado_cliff"}]
 [tool.poetry.dependencies]
 python = "^3.9"
 numpy = "1.24.3"
-gym-toytext = "0.26.0"
-gymnasium = "0.28.1"
+gymnasium = {extras = ["toy-text"], version = "0.28.1"}
+pygame = "2.1.3"
 
 [tool.poetry.group.dev.dependencies]
 flake8 = "6.0.0"
