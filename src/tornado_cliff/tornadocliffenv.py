@@ -362,7 +362,7 @@ class CliffWalkingWithTornadosEnv(Env):
 
             if mode == "human":
                 pygame.display.init()
-                pygame.display.set_caption("CliffWalking")
+                pygame.display.set_caption("TornadoCliffWalking")
                 self.window_surface = pygame.display.set_mode(self.window_size)
             else:  # rgb_array
                 self.window_surface = pygame.Surface(self.window_size)
