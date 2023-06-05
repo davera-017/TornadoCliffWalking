@@ -76,7 +76,7 @@ As cliff walking is not stochastic, the transition probability returned always 1
 
 ```bash
 git clone https://github.com/davera-017/TornadoCliffWalking
-cd src/tornado_cliff
+cd TornadoCliffWalking
 pip install -e .
 ```
 
@@ -84,7 +84,7 @@ pip install -e .
 
 <a id="cliffwalk_ref"></a>[1] R. Sutton and A. Barto, “Reinforcement Learning:
 An Introduction” 2020. [Online].
-Available: [http://www.incompleteideas.net/book/RLbook2020.pdf](http://www.incompleteideas.net/book/RLbook2020.pdf) # noqa :
+Available: [http://www.incompleteideas.net/book/RLbook2020.pdf](http://www.incompleteideas.net/book/RLbook2020.pdf)
 
 <a id="gymnasium_ref"></a>[2] Farama Foundation, “Gymnasium” 2023. (v0.28.1).
 See: [https://github.com/Farama-Foundation/Gymnasium/blob/main/gymnasium/envs/toy_text/cliffwalking.py](https://github.com/Farama-Foundation/Gymnasium/blob/main/gymnasium/envs/toy_text/cliffwalking.py)
