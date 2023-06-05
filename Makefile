@@ -41,7 +41,7 @@ format: ## Formats code
 
 .PHONY: test-env
 test-env: ## Test env
-	poetry run python -m src.tornado_cliff.tornadocliffenv
+	python -m src.tornado_cliff.tornadocliffenv
 
 .PHONY: help
 .DEFAULT_GOAL := help
