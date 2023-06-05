@@ -72,11 +72,12 @@ The episode terminates when the player reaches the goal at the bottom left corne
 
 As cliff walking is not stochastic, the transition probability returned always 1.0.
 
-## Arguments
+## Installation
 
-```python
-import gymnasium as gym
-gym.make('CliffWalking-v0')
+```bash
+git clone https://github.com/davera-017/TornadoCliffWalking
+cd src/tornado_cliff
+pip install -e .
 ```
 
 ## References
