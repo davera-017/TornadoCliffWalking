@@ -1,6 +1,6 @@
 [tool.poetry]
-name = "tornadocliffwalking"
-version = "0.0.1"
+name = "tornado-cliff-walking"
+version = "0.1.0"
 description = "A variation of Gymnasium's CliffWalking enviroment."
 authors = ["Daniel Ávila Vera <davera.017@gmail.com>"]
 repository = "https://github.com/davera-017/TornadoCliffWalking"
@@ -8,7 +8,7 @@ documentation = "https://github.com/davera-017/TornadoCliffWalking"
 readme = "README.md"
 license = "MIT"
 keywords = ["Reinforcement Learning", "CliffWalking", "gymnasium"]
-packages = [{include = "src/tornado_cliff"}]
+packages = [{ include = "tornado_cliff_env", from = "src" }]
 
 [tool.poetry.dependencies]
 python = "^3.9"
