@@ -48,7 +48,7 @@ results in the end of the episode.
 The observation is a tuple representing the player's and the tornado's current
 position as current_row * nrows + current_col (where both the row and col start at 0).
 
-The observation is returned as a `Tuple[int, int]`.
+The observation is returned as a `Tuple[int, int]`. The first number being the state of the Elf and the second one corresponding to the state of the tornado.
 
 ## Starting State
 
