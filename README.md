@@ -12,15 +12,15 @@ grid (including the cliff).
 
 ## Description
 
-The game starts with the Elf at the top left corner of a gridworld (i.e. [0,0]).
+The game starts with the Elf at the top left corner of a gridworld (`i.e. [0,0]`).
 The goal location is always at the bottom right corner
-(i.e. [-1,-1]), and if the Elf reaches the goal the episode ends.
+(`i.e. [-1,-1]`), and if the Elf reaches the goal the episode ends.
 
 A cliff runs along the middle of the grid. If the player moves to a cliff location it
 returns to the start location.
 
 A tornado begins from a random square, excluding the cliff, and it makes a random walk through
-the grid at a given pace (default if 1). If the Elf crosses the tornado, it will
+the grid at a given pace (default is 1). If the Elf crosses the tornado, it will
 be blown away by a random square in the grid including the cliff.
 
 The player makes moves until they reach the goal.
@@ -41,14 +41,14 @@ which direction to move the player.
 
 ## Observation Space
 
-The observation depends on the shape of the grid. For a (6,8) grid there are 48*48 possible states, corresponding to the position of the Elf and the position of
+The observation depends on the shape of the grid. For a `(6,8)` grid there are 48*48 possible states, corresponding to the position of the Elf and the position of
 the tornado. The player cannot be at the cliff, nor at the goal as the latter
 results in the end of the episode.
 
 The observation is a tuple representing the player's and the tornado's current
 position as current_row * nrows + current_col (where both the row and col start at 0).
 
-The observation is returned as a `Tuple``[int`, int]`.
+The observation is returned as a `Tuple[int, int]`.
 
 ## Starting State
 

@@ -129,7 +129,7 @@ class CliffWalkingWithTornadosEnv(Env):
         # Cliff Location
         self._cliff = np.zeros(self.shape, dtype=bool)
         self._cliff[
-            (shape[0] // 2) - 1: (shape[0] // 2) + 1,
+            (shape[0] // 2) - 1 : (shape[0] // 2) + 1,
             1:-2,
         ] = True
 
