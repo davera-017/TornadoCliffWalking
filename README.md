@@ -1,7 +1,7 @@
 # **Tornado Cliff Walking**
 
 <p align="center">
-  <img src="src/tornado_cliff/vid/example.gif" alt="Sublime's custom image" height="240"/>
+  <img src="src/tornado_cliff/vid/example.gif" alt="TonadoCliffWalking Example" height="240"/>
 </p>
 
 
